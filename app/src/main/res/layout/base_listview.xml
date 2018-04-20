@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fff">
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#fff"
+    android:id="@+id/listview">
+</ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvEmpty"
+        android:layout_centerInParent="true"/>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="16dp"
+    android:visibility="gone"
+    android:id="@+id/rl_alert"
+    android:elevation="8dp"
+    android:background="#fff">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/img_alert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        android:id="@+id/pbAlert"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAlert"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:layout_below="@+id/img_alert"
+        android:layout_marginTop="12dp"
+        android:padding="8dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tvAlert"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_below="@+id/tvAlert"
+            android:id="@+id/bttnNeg"
+            android:textColor="#fff"
+            android:textSize="8dp"
+            android:layout_toLeftOf="@+id/bttnPos"
+            android:layout_marginRight="16dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:id="@+id/bttnPos"
+            android:textColor="#fff"
+            android:textSize="8dp"
+            android:layout_below="@+id/tvAlert"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+</RelativeLayout>

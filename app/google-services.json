@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "538377703266",
+    "firebase_url": "https://matrimony-e2206.firebaseio.com",
+    "project_id": "matrimony-e2206",
+    "storage_bucket": "matrimony-e2206.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538377703266:android:c310cd26dc8d84f0",
+        "android_client_info": {
+          "package_name": "com.oblabs.mauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538377703266-offo38147bk6uvqo1ttoia1v5pgkl3u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYumy0RN0E0jTwnqph0-q6NOtoXRxPjq0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

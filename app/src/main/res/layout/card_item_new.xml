@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTitle"
+        android:text="Milk"
+        android:layout_toLeftOf="@+id/cbComplete"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvQty"
+        android:text="1 Unit"
+        android:visibility="gone"
+        android:layout_below="@+id/tvTitle"
+        android:paddingLeft="8dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Owner"
+        android:id="@+id/tvOwner"
+        android:layout_toRightOf="@+id/tvQty"
+        android:layout_below="@+id/tvTitle"
+        android:paddingLeft="8dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 Hours ago"
+        android:id="@+id/tvTimestamp"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:layout_below="@+id/tvOwner"
+        android:paddingBottom="8dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbComplete"
+        android:paddingTop="8dp"
+        android:paddingRight="8dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="16dp"
+        android:layout_alignParentRight="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eee"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
